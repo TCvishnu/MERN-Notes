@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 const {MongoClient, ObjectId} = require("mongodb");
-const url = "mongodb+srv://amhungry26:swJzX15lQ1gooulA@learncluster.iom0jkz.mongodb.net/?retryWrites=true&w=majority";
+const url = "mongodb+srv://@learncluster.iom0jkz.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(url);
 
 let data;
