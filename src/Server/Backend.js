@@ -6,7 +6,7 @@ const url = "mongodb+srv://@learncluster.iom0jkz.mongodb.net/?retryWrites=true&w
 const client = new MongoClient(url);
 
 let data;
-
+// Comment added broi
 app.get("/api/notes", async (req, res) => {
     try {  
         await client.connect(); 
